@@ -1,0 +1,22 @@
+.container {
+  // mobile screen
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: $mobile;
+
+  // breakpoint 768px for tablet screen
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  // breakpoint 1024px for desktop screen
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

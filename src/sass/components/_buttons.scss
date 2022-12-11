@@ -1,0 +1,9 @@
+.btn {
+  display: inline-block;
+  font-family: inherit;
+  @include fonts(12px, 16px, 500);
+  cursor: pointer;
+  @include bordered($color-white);
+  border-radius: 5px;
+  text-align: center;
+}
